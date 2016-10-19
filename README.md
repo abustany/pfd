@@ -1,5 +1,7 @@
 # PFD - Parallel file downloader
 
+[![Build Status](https://travis-ci.org/abustany/pfd.svg?branch=master)](https://travis-ci.org/abustany/pfd)
+
 PFD is a simple "download accelerator" written in Go. It (potentially)
 accelerates downloads by establishing multiple connections to the upstream
 server, sharding the download across them. This only works for servers accepting
